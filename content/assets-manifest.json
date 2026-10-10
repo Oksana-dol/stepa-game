@@ -1,0 +1,893 @@
+{
+  "version": 1,
+  "images": [
+    {
+      "id": "fox-subject",
+      "path": "public/media/cards/fox/subject.webp",
+      "scene": "лиса",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-attribute-1",
+      "path": "public/media/cards/fox/attribute-1.webp",
+      "scene": "лиса: рыжая",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-attribute-2",
+      "path": "public/media/cards/fox/attribute-2.webp",
+      "scene": "лиса: маленькая",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-attribute-3",
+      "path": "public/media/cards/fox/attribute-3.webp",
+      "scene": "лиса: пушистая",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-action-1",
+      "path": "public/media/cards/fox/action-1.webp",
+      "scene": "лиса бежит",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-action-2",
+      "path": "public/media/cards/fox/action-2.webp",
+      "scene": "лиса спит",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-action-3",
+      "path": "public/media/cards/fox/action-3.webp",
+      "scene": "лиса играет",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-context",
+      "path": "public/media/cards/fox/context.webp",
+      "scene": "Место/контекст: по лесу, без букв и написанного предлога",
+      "status": "prototype-review"
+    },
+    {
+      "id": "fox-example",
+      "path": "public/media/cards/fox/example.webp",
+      "scene": "Рыжая лиса бежит по лесу.",
+      "status": "prototype-review"
+    },
+    {
+      "id": "hare-subject",
+      "path": "public/media/cards/hare/subject.webp",
+      "scene": "заяц",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-attribute-1",
+      "path": "public/media/cards/hare/attribute-1.webp",
+      "scene": "заяц: белый",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-attribute-2",
+      "path": "public/media/cards/hare/attribute-2.webp",
+      "scene": "заяц: маленький",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-attribute-3",
+      "path": "public/media/cards/hare/attribute-3.webp",
+      "scene": "заяц: пушистый",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-action-1",
+      "path": "public/media/cards/hare/action-1.webp",
+      "scene": "заяц прыгает",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-action-2",
+      "path": "public/media/cards/hare/action-2.webp",
+      "scene": "заяц бежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-action-3",
+      "path": "public/media/cards/hare/action-3.webp",
+      "scene": "заяц спит",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-context",
+      "path": "public/media/cards/hare/context.webp",
+      "scene": "Место/контекст: на полянке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "hare-example",
+      "path": "public/media/cards/hare/example.webp",
+      "scene": "Белый заяц прыгает на полянке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-subject",
+      "path": "public/media/cards/squirrel/subject.webp",
+      "scene": "белка",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-attribute-1",
+      "path": "public/media/cards/squirrel/attribute-1.webp",
+      "scene": "белка: рыжая",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-attribute-2",
+      "path": "public/media/cards/squirrel/attribute-2.webp",
+      "scene": "белка: маленькая",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-attribute-3",
+      "path": "public/media/cards/squirrel/attribute-3.webp",
+      "scene": "белка: ловкая",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-action-1",
+      "path": "public/media/cards/squirrel/action-1.webp",
+      "scene": "белка прыгает",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-action-2",
+      "path": "public/media/cards/squirrel/action-2.webp",
+      "scene": "белка грызёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-action-3",
+      "path": "public/media/cards/squirrel/action-3.webp",
+      "scene": "белка сидит",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-context",
+      "path": "public/media/cards/squirrel/context.webp",
+      "scene": "Место/контекст: на ветке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "squirrel-example",
+      "path": "public/media/cards/squirrel/example.webp",
+      "scene": "Рыжая белка сидит на ветке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-subject",
+      "path": "public/media/cards/bear/subject.webp",
+      "scene": "медведь",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-attribute-1",
+      "path": "public/media/cards/bear/attribute-1.webp",
+      "scene": "медведь: бурый",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-attribute-2",
+      "path": "public/media/cards/bear/attribute-2.webp",
+      "scene": "медведь: большой",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-attribute-3",
+      "path": "public/media/cards/bear/attribute-3.webp",
+      "scene": "медведь: лохматый",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-action-1",
+      "path": "public/media/cards/bear/action-1.webp",
+      "scene": "медведь идёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-action-2",
+      "path": "public/media/cards/bear/action-2.webp",
+      "scene": "медведь спит",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-action-3",
+      "path": "public/media/cards/bear/action-3.webp",
+      "scene": "медведь ест",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-context",
+      "path": "public/media/cards/bear/context.webp",
+      "scene": "Место/контекст: по лесу, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "bear-example",
+      "path": "public/media/cards/bear/example.webp",
+      "scene": "Бурый медведь идёт по лесу.",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-subject",
+      "path": "public/media/cards/hedgehog/subject.webp",
+      "scene": "ёж",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-attribute-1",
+      "path": "public/media/cards/hedgehog/attribute-1.webp",
+      "scene": "ёж: серый",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-attribute-2",
+      "path": "public/media/cards/hedgehog/attribute-2.webp",
+      "scene": "ёж: маленький",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-attribute-3",
+      "path": "public/media/cards/hedgehog/attribute-3.webp",
+      "scene": "ёж: колючий",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-action-1",
+      "path": "public/media/cards/hedgehog/action-1.webp",
+      "scene": "ёж идёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-action-2",
+      "path": "public/media/cards/hedgehog/action-2.webp",
+      "scene": "ёж спит",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-action-3",
+      "path": "public/media/cards/hedgehog/action-3.webp",
+      "scene": "ёж фыркает",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-context",
+      "path": "public/media/cards/hedgehog/context.webp",
+      "scene": "Место/контекст: по тропинке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "hedgehog-example",
+      "path": "public/media/cards/hedgehog/example.webp",
+      "scene": "Маленький ёж идёт по тропинке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-subject",
+      "path": "public/media/cards/cat/subject.webp",
+      "scene": "кошка",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-attribute-1",
+      "path": "public/media/cards/cat/attribute-1.webp",
+      "scene": "кошка: серая",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-attribute-2",
+      "path": "public/media/cards/cat/attribute-2.webp",
+      "scene": "кошка: маленькая",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-attribute-3",
+      "path": "public/media/cards/cat/attribute-3.webp",
+      "scene": "кошка: пушистая",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-action-1",
+      "path": "public/media/cards/cat/action-1.webp",
+      "scene": "кошка спит",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-action-2",
+      "path": "public/media/cards/cat/action-2.webp",
+      "scene": "кошка прыгает",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-action-3",
+      "path": "public/media/cards/cat/action-3.webp",
+      "scene": "кошка умывается",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-context",
+      "path": "public/media/cards/cat/context.webp",
+      "scene": "Место/контекст: на коврике, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "cat-example",
+      "path": "public/media/cards/cat/example.webp",
+      "scene": "Серая кошка спит на коврике.",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-subject",
+      "path": "public/media/cards/dog/subject.webp",
+      "scene": "собака",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-attribute-1",
+      "path": "public/media/cards/dog/attribute-1.webp",
+      "scene": "собака: рыжая",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-attribute-2",
+      "path": "public/media/cards/dog/attribute-2.webp",
+      "scene": "собака: большая",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-attribute-3",
+      "path": "public/media/cards/dog/attribute-3.webp",
+      "scene": "собака: лохматая",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-action-1",
+      "path": "public/media/cards/dog/action-1.webp",
+      "scene": "собака бежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-action-2",
+      "path": "public/media/cards/dog/action-2.webp",
+      "scene": "собака лает",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-action-3",
+      "path": "public/media/cards/dog/action-3.webp",
+      "scene": "собака играет",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-context",
+      "path": "public/media/cards/dog/context.webp",
+      "scene": "Место/контекст: во дворе, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "dog-example",
+      "path": "public/media/cards/dog/example.webp",
+      "scene": "Рыжая собака играет во дворе.",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-subject",
+      "path": "public/media/cards/mouse/subject.webp",
+      "scene": "мышь",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-attribute-1",
+      "path": "public/media/cards/mouse/attribute-1.webp",
+      "scene": "мышь: серая",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-attribute-2",
+      "path": "public/media/cards/mouse/attribute-2.webp",
+      "scene": "мышь: маленькая",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-attribute-3",
+      "path": "public/media/cards/mouse/attribute-3.webp",
+      "scene": "мышь: шустрая",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-action-1",
+      "path": "public/media/cards/mouse/action-1.webp",
+      "scene": "мышь бежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-action-2",
+      "path": "public/media/cards/mouse/action-2.webp",
+      "scene": "мышь грызёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-action-3",
+      "path": "public/media/cards/mouse/action-3.webp",
+      "scene": "мышь прячется",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-context",
+      "path": "public/media/cards/mouse/context.webp",
+      "scene": "Место/контекст: в норке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "mouse-example",
+      "path": "public/media/cards/mouse/example.webp",
+      "scene": "Серая мышь прячется в норке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-subject",
+      "path": "public/media/cards/carrot/subject.webp",
+      "scene": "морковка",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-attribute-1",
+      "path": "public/media/cards/carrot/attribute-1.webp",
+      "scene": "морковка: оранжевая",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-attribute-2",
+      "path": "public/media/cards/carrot/attribute-2.webp",
+      "scene": "морковка: маленькая",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-attribute-3",
+      "path": "public/media/cards/carrot/attribute-3.webp",
+      "scene": "морковка: длинная",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-action-1",
+      "path": "public/media/cards/carrot/action-1.webp",
+      "scene": "морковка растёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-action-2",
+      "path": "public/media/cards/carrot/action-2.webp",
+      "scene": "морковка лежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-action-3",
+      "path": "public/media/cards/carrot/action-3.webp",
+      "scene": "морковка падает",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-context",
+      "path": "public/media/cards/carrot/context.webp",
+      "scene": "Место/контекст: на грядке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "carrot-example",
+      "path": "public/media/cards/carrot/example.webp",
+      "scene": "Оранжевая морковка растёт на грядке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-subject",
+      "path": "public/media/cards/cone/subject.webp",
+      "scene": "шишка",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-attribute-1",
+      "path": "public/media/cards/cone/attribute-1.webp",
+      "scene": "шишка: коричневая",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-attribute-2",
+      "path": "public/media/cards/cone/attribute-2.webp",
+      "scene": "шишка: маленькая",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-attribute-3",
+      "path": "public/media/cards/cone/attribute-3.webp",
+      "scene": "шишка: шершавая",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-action-1",
+      "path": "public/media/cards/cone/action-1.webp",
+      "scene": "шишка висит",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-action-2",
+      "path": "public/media/cards/cone/action-2.webp",
+      "scene": "шишка падает",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-action-3",
+      "path": "public/media/cards/cone/action-3.webp",
+      "scene": "шишка лежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-context",
+      "path": "public/media/cards/cone/context.webp",
+      "scene": "Место/контекст: на земле, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "cone-example",
+      "path": "public/media/cards/cone/example.webp",
+      "scene": "Коричневая шишка лежит на земле.",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-subject",
+      "path": "public/media/cards/ball/subject.webp",
+      "scene": "мяч",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-attribute-1",
+      "path": "public/media/cards/ball/attribute-1.webp",
+      "scene": "мяч: красный",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-attribute-2",
+      "path": "public/media/cards/ball/attribute-2.webp",
+      "scene": "мяч: большой",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-attribute-3",
+      "path": "public/media/cards/ball/attribute-3.webp",
+      "scene": "мяч: круглый",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-action-1",
+      "path": "public/media/cards/ball/action-1.webp",
+      "scene": "мяч катится",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-action-2",
+      "path": "public/media/cards/ball/action-2.webp",
+      "scene": "мяч прыгает",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-action-3",
+      "path": "public/media/cards/ball/action-3.webp",
+      "scene": "мяч лежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-context",
+      "path": "public/media/cards/ball/context.webp",
+      "scene": "Место/контекст: по дорожке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "ball-example",
+      "path": "public/media/cards/ball/example.webp",
+      "scene": "Красный мяч катится по дорожке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-subject",
+      "path": "public/media/cards/apple/subject.webp",
+      "scene": "яблоко",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-attribute-1",
+      "path": "public/media/cards/apple/attribute-1.webp",
+      "scene": "яблоко: красное",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-attribute-2",
+      "path": "public/media/cards/apple/attribute-2.webp",
+      "scene": "яблоко: маленькое",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-attribute-3",
+      "path": "public/media/cards/apple/attribute-3.webp",
+      "scene": "яблоко: круглое",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-action-1",
+      "path": "public/media/cards/apple/action-1.webp",
+      "scene": "яблоко висит",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-action-2",
+      "path": "public/media/cards/apple/action-2.webp",
+      "scene": "яблоко падает",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-action-3",
+      "path": "public/media/cards/apple/action-3.webp",
+      "scene": "яблоко лежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-context",
+      "path": "public/media/cards/apple/context.webp",
+      "scene": "Место/контекст: на ветке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "apple-example",
+      "path": "public/media/cards/apple/example.webp",
+      "scene": "Красное яблоко висит на ветке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-subject",
+      "path": "public/media/cards/leaf/subject.webp",
+      "scene": "лист",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-attribute-1",
+      "path": "public/media/cards/leaf/attribute-1.webp",
+      "scene": "лист: жёлтый",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-attribute-2",
+      "path": "public/media/cards/leaf/attribute-2.webp",
+      "scene": "лист: маленький",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-attribute-3",
+      "path": "public/media/cards/leaf/attribute-3.webp",
+      "scene": "лист: резной",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-action-1",
+      "path": "public/media/cards/leaf/action-1.webp",
+      "scene": "лист падает",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-action-2",
+      "path": "public/media/cards/leaf/action-2.webp",
+      "scene": "лист кружится",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-action-3",
+      "path": "public/media/cards/leaf/action-3.webp",
+      "scene": "лист лежит",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-context",
+      "path": "public/media/cards/leaf/context.webp",
+      "scene": "Место/контекст: на дорожке, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "leaf-example",
+      "path": "public/media/cards/leaf/example.webp",
+      "scene": "Жёлтый лист лежит на дорожке.",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-subject",
+      "path": "public/media/cards/flower/subject.webp",
+      "scene": "цветок",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-attribute-1",
+      "path": "public/media/cards/flower/attribute-1.webp",
+      "scene": "цветок: жёлтый",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-attribute-2",
+      "path": "public/media/cards/flower/attribute-2.webp",
+      "scene": "цветок: маленький",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-attribute-3",
+      "path": "public/media/cards/flower/attribute-3.webp",
+      "scene": "цветок: душистый",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-action-1",
+      "path": "public/media/cards/flower/action-1.webp",
+      "scene": "цветок растёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-action-2",
+      "path": "public/media/cards/flower/action-2.webp",
+      "scene": "цветок цветёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-action-3",
+      "path": "public/media/cards/flower/action-3.webp",
+      "scene": "цветок качается",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-context",
+      "path": "public/media/cards/flower/context.webp",
+      "scene": "Место/контекст: на клумбе, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "flower-example",
+      "path": "public/media/cards/flower/example.webp",
+      "scene": "Жёлтый цветок растёт на клумбе.",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-subject",
+      "path": "public/media/cards/tree/subject.webp",
+      "scene": "дерево",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-attribute-1",
+      "path": "public/media/cards/tree/attribute-1.webp",
+      "scene": "дерево: зелёное",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-attribute-2",
+      "path": "public/media/cards/tree/attribute-2.webp",
+      "scene": "дерево: большое",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-attribute-3",
+      "path": "public/media/cards/tree/attribute-3.webp",
+      "scene": "дерево: ветвистое",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-action-1",
+      "path": "public/media/cards/tree/action-1.webp",
+      "scene": "дерево растёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-action-2",
+      "path": "public/media/cards/tree/action-2.webp",
+      "scene": "дерево качается",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-action-3",
+      "path": "public/media/cards/tree/action-3.webp",
+      "scene": "дерево шумит",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-context",
+      "path": "public/media/cards/tree/context.webp",
+      "scene": "Место/контекст: в лесу, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "tree-example",
+      "path": "public/media/cards/tree/example.webp",
+      "scene": "Большое дерево растёт в лесу.",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-subject",
+      "path": "public/media/cards/cloud/subject.webp",
+      "scene": "облако",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-attribute-1",
+      "path": "public/media/cards/cloud/attribute-1.webp",
+      "scene": "облако: белое",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-attribute-2",
+      "path": "public/media/cards/cloud/attribute-2.webp",
+      "scene": "облако: большое",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-attribute-3",
+      "path": "public/media/cards/cloud/attribute-3.webp",
+      "scene": "облако: пушистое",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-action-1",
+      "path": "public/media/cards/cloud/action-1.webp",
+      "scene": "облако плывёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-action-2",
+      "path": "public/media/cards/cloud/action-2.webp",
+      "scene": "облако растёт",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-action-3",
+      "path": "public/media/cards/cloud/action-3.webp",
+      "scene": "облако исчезает",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-context",
+      "path": "public/media/cards/cloud/context.webp",
+      "scene": "Место/контекст: по небу, без букв и написанного предлога",
+      "status": "generated-review"
+    },
+    {
+      "id": "cloud-example",
+      "path": "public/media/cards/cloud/example.webp",
+      "scene": "Белое облако плывёт по небу.",
+      "status": "generated-review"
+    },
+    {
+      "id": "stepa-welcome",
+      "path": "public/media/stepa/welcome.webp",
+      "scene": "Стёпа, поза welcome; сохранить исходного персонажа",
+      "status": "prototype-review"
+    },
+    {
+      "id": "stepa-attentive",
+      "path": "public/media/stepa/attentive.webp",
+      "scene": "Стёпа, поза attentive; сохранить исходного персонажа",
+      "status": "prototype-review"
+    },
+    {
+      "id": "stepa-hint",
+      "path": "public/media/stepa/hint.webp",
+      "scene": "Стёпа, поза hint; сохранить исходного персонажа",
+      "status": "prototype-review"
+    },
+    {
+      "id": "stepa-happy",
+      "path": "public/media/stepa/happy.webp",
+      "scene": "Стёпа, поза happy; сохранить исходного персонажа",
+      "status": "prototype-review"
+    }
+  ]
+}

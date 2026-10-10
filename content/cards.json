@@ -1,0 +1,884 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "fox",
+      "noun": "лиса",
+      "animate": true,
+      "gender": "f",
+      "question": "Какая?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "рыжая"
+        },
+        {
+          "kind": "size",
+          "word": "большая"
+        },
+        {
+          "kind": "property",
+          "word": "пушистая"
+        }
+      ],
+      "actions": [
+        "бежит",
+        "спит",
+        "играет"
+      ],
+      "context": {
+        "preposition": "по",
+        "nounForm": "лесу"
+      },
+      "example": {
+        "text": "Рыжая лиса бежит по лесу.",
+        "tokens": [
+          {
+            "word": "Рыжая",
+            "type": "attribute"
+          },
+          {
+            "word": "лиса",
+            "type": "subject"
+          },
+          {
+            "word": "бежит",
+            "type": "action"
+          },
+          {
+            "word": "по",
+            "type": "preposition"
+          },
+          {
+            "word": "лесу",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hare",
+      "noun": "заяц",
+      "animate": true,
+      "gender": "m",
+      "question": "Какой?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "белый"
+        },
+        {
+          "kind": "size",
+          "word": "большой"
+        },
+        {
+          "kind": "property",
+          "word": "пушистый"
+        }
+      ],
+      "actions": [
+        "прыгает",
+        "бежит",
+        "спит"
+      ],
+      "context": {
+        "preposition": "на",
+        "nounForm": "полянке"
+      },
+      "example": {
+        "text": "Белый заяц прыгает на полянке.",
+        "tokens": [
+          {
+            "word": "Белый",
+            "type": "attribute"
+          },
+          {
+            "word": "заяц",
+            "type": "subject"
+          },
+          {
+            "word": "прыгает",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+            "word": "полянке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "squirrel",
+      "noun": "белка",
+      "animate": true,
+      "gender": "f",
+      "question": "Какая?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "рыжая"
+        },
+        {
+          "kind": "size",
+          "word": "маленькая"
+        },
+        {
+          "kind": "property",
+          "word": "ловкая"
+        }
+      ],
+      "actions": [
+        "прыгает",
+        "грызёт",
+        "сидит"
+      ],
+    "context": {
+      "preposition": "на",
+      "nounForm": "тарелке"
+    },
+      "example": {
+        "text": "Рыжая белка сидит на ветке.",
+        "tokens": [
+          {
+            "word": "Рыжая",
+            "type": "attribute"
+          },
+          {
+            "word": "белка",
+            "type": "subject"
+          },
+          {
+            "word": "сидит",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+            "word": "ветке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bear",
+      "noun": "медведь",
+      "animate": true,
+      "gender": "m",
+      "question": "Какой?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "бурый"
+        },
+        {
+          "kind": "size",
+      "word": "белый"
+        },
+        {
+          "kind": "property",
+      "word": "маленький"
+        }
+      ],
+      "actions": [
+        "идёт",
+        "спит",
+        "ест"
+      ],
+      "context": {
+        "preposition": "по",
+        "nounForm": "лесу"
+      },
+      "example": {
+        "text": "Бурый медведь идёт по лесу.",
+        "tokens": [
+          {
+            "word": "Бурый",
+            "type": "attribute"
+          },
+          {
+            "word": "медведь",
+            "type": "subject"
+          },
+          {
+            "word": "идёт",
+            "type": "action"
+          },
+          {
+            "word": "по",
+            "type": "preposition"
+          },
+          {
+            "word": "лесу",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+  {
+    "id": "hedgehog",
+      "noun": "ёж",
+      "animate": true,
+      "gender": "m",
+      "question": "Какой?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "серый"
+        },
+        {
+          "kind": "size",
+          "word": "маленький"
+        },
+        {
+          "kind": "property",
+          "word": "колючий"
+        }
+      ],
+    "actions": [
+      "прячется",
+      "спит",
+      "ест"
+    ],
+      "context": {
+        "preposition": "по",
+        "nounForm": "тропинке"
+      },
+      "example": {
+        "text": "Маленький ёж идёт по тропинке.",
+        "tokens": [
+          {
+            "word": "Маленький",
+            "type": "attribute"
+          },
+          {
+            "word": "ёж",
+            "type": "subject"
+          },
+          {
+            "word": "идёт",
+            "type": "action"
+          },
+          {
+            "word": "по",
+            "type": "preposition"
+          },
+          {
+            "word": "тропинке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+  {
+    "id": "cat",
+      "noun": "кошка",
+      "animate": true,
+      "gender": "f",
+      "question": "Какая?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "серая"
+        },
+        {
+          "kind": "size",
+          "word": "маленькая"
+        },
+        {
+          "kind": "property",
+          "word": "пушистая"
+        }
+      ],
+    "actions": [
+      "прыгает",
+      "спит",
+      "умывается"
+    ],
+      "context": {
+        "preposition": "на",
+        "nounForm": "коврике"
+      },
+      "example": {
+        "text": "Серая кошка спит на коврике.",
+        "tokens": [
+          {
+            "word": "Серая",
+            "type": "attribute"
+          },
+          {
+            "word": "кошка",
+            "type": "subject"
+          },
+          {
+            "word": "спит",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+            "word": "коврике",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+  {
+    "id": "dog",
+      "noun": "собака",
+      "animate": true,
+      "gender": "f",
+      "question": "Какая?",
+      "attributes": [
+        {
+          "kind": "color",
+      "word": "чёрная"
+        },
+        {
+          "kind": "size",
+      "word": "дружелюбная"
+        },
+        {
+          "kind": "property",
+      "word": "большая"
+        }
+      ],
+    "actions": [
+      "плывёт",
+      "бежит",
+      "играет"
+    ],
+      "context": {
+        "preposition": "во",
+        "nounForm": "дворе"
+      },
+      "example": {
+    "text": "Чёрная собака играет во дворе.",
+        "tokens": [
+          {
+        "word": "Чёрная",
+            "type": "attribute"
+          },
+          {
+            "word": "собака",
+            "type": "subject"
+          },
+          {
+            "word": "играет",
+            "type": "action"
+          },
+          {
+            "word": "во",
+            "type": "preposition"
+          },
+          {
+            "word": "дворе",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mouse",
+      "noun": "мышь",
+      "animate": true,
+      "gender": "f",
+      "question": "Какая?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "серая"
+        },
+        {
+          "kind": "size",
+          "word": "маленькая"
+        },
+        {
+          "kind": "property",
+          "word": "шустрая"
+        }
+      ],
+      "actions": [
+        "бежит",
+        "грызёт",
+        "прячется"
+      ],
+      "context": {
+        "preposition": "в",
+        "nounForm": "норке"
+      },
+      "example": {
+        "text": "Серая мышь прячется в норке.",
+        "tokens": [
+          {
+            "word": "Серая",
+            "type": "attribute"
+          },
+          {
+            "word": "мышь",
+            "type": "subject"
+          },
+          {
+            "word": "прячется",
+            "type": "action"
+          },
+          {
+            "word": "в",
+            "type": "preposition"
+          },
+          {
+            "word": "норке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "carrot",
+      "noun": "морковка",
+      "animate": false,
+      "gender": "f",
+      "question": "Какая?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "оранжевая"
+        },
+        {
+          "kind": "size",
+          "word": "маленькая"
+        },
+        {
+          "kind": "property",
+          "word": "тёртая"
+        }
+      ],
+      "actions": [
+        "падает",
+        "лежит",
+        "растёт"
+      ],
+      "context": {
+        "preposition": "на",
+        "nounForm": "грядке"
+      },
+      "example": {
+        "text": "Оранжевая морковка растёт на грядке.",
+        "tokens": [
+          {
+            "word": "Оранжевая",
+            "type": "attribute"
+          },
+          {
+            "word": "морковка",
+            "type": "subject"
+          },
+          {
+            "word": "растёт",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+            "word": "грядке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+  {
+    "id": "cone",
+      "noun": "шишка",
+      "animate": false,
+      "gender": "f",
+      "question": "Какая?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "коричневая"
+        },
+        {
+          "kind": "size",
+          "word": "маленькая"
+        },
+        {
+          "kind": "property",
+      "word": "зелёная"
+        }
+      ],
+    "actions": [
+      "лежит",
+      "падает",
+      "висит"
+    ],
+      "context": {
+        "preposition": "на",
+        "nounForm": "земле"
+      },
+      "example": {
+        "text": "Коричневая шишка лежит на земле.",
+        "tokens": [
+          {
+            "word": "Коричневая",
+            "type": "attribute"
+          },
+          {
+            "word": "шишка",
+            "type": "subject"
+          },
+          {
+            "word": "лежит",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+            "word": "земле",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ball",
+      "noun": "мяч",
+      "animate": false,
+      "gender": "m",
+      "question": "Какой?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "красный"
+        },
+        {
+          "kind": "size",
+      "word": "футбольный"
+        },
+        {
+          "kind": "property",
+      "word": "надувной"
+        }
+      ],
+    "actions": [
+      "прыгает",
+      "летит",
+      "лежит"
+    ],
+      "context": {
+        "preposition": "по",
+        "nounForm": "дорожке"
+      },
+      "example": {
+        "text": "Красный мяч катится по дорожке.",
+        "tokens": [
+          {
+            "word": "Красный",
+            "type": "attribute"
+          },
+          {
+            "word": "мяч",
+            "type": "subject"
+          },
+          {
+            "word": "катится",
+            "type": "action"
+          },
+          {
+            "word": "по",
+            "type": "preposition"
+          },
+          {
+            "word": "дорожке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+  {
+    "id": "apple",
+      "noun": "яблоко",
+      "animate": false,
+      "gender": "n",
+      "question": "Какое?",
+      "attributes": [
+        {
+          "kind": "color",
+      "word": "зелёное"
+        },
+        {
+      "kind": "size",
+      "word": "большое"
+        },
+        {
+          "kind": "property",
+      "word": "надкусанное"
+        }
+      ],
+    "actions": [
+      "лежит",
+      "падает",
+      "катится"
+    ],
+      "context": {
+        "preposition": "на",
+        "nounForm": "ветке"
+      },
+      "example": {
+    "text": "Зелёное яблоко лежит на тарелке.",
+        "tokens": [
+          {
+        "word": "Зелёное",
+            "type": "attribute"
+          },
+          {
+            "word": "яблоко",
+            "type": "subject"
+          },
+          {
+        "word": "лежит",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+        "word": "тарелке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "leaf",
+      "noun": "лист",
+      "animate": false,
+      "gender": "m",
+      "question": "Какой?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "красный"
+        },
+        {
+          "kind": "size",
+          "word": "большой"
+        },
+        {
+          "kind": "property",
+          "word": "кленовый"
+        }
+      ],
+      "actions": [
+        "падает",
+        "лежит",
+        "кружится"
+      ],
+      "context": {
+        "preposition": "на",
+        "nounForm": "дорожке"
+      },
+      "example": {
+        "text": "Жёлтый лист лежит на дорожке.",
+        "tokens": [
+          {
+            "word": "Жёлтый",
+            "type": "attribute"
+          },
+          {
+            "word": "лист",
+            "type": "subject"
+          },
+          {
+            "word": "лежит",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+            "word": "дорожке",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+    {
+      "id": "flower",
+      "noun": "цветок",
+      "animate": false,
+      "gender": "m",
+      "question": "Какой?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "жёлтый"
+        },
+        {
+          "kind": "size",
+          "word": "маленький"
+        },
+        {
+          "kind": "property",
+      "word": "засохший"
+        }
+      ],
+    "actions": [
+      "растёт",
+      "качается",
+      "раскрывается"
+    ],
+      "context": {
+        "preposition": "на",
+      "nounForm": "поляне"
+      },
+      "example": {
+    "text": "Жёлтый цветок растёт на поляне.",
+        "tokens": [
+          {
+            "word": "Жёлтый",
+            "type": "attribute"
+          },
+          {
+            "word": "цветок",
+            "type": "subject"
+          },
+          {
+            "word": "растёт",
+            "type": "action"
+          },
+          {
+            "word": "на",
+            "type": "preposition"
+          },
+          {
+        "word": "поляне",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+  {
+    "id": "tree",
+      "noun": "дерево",
+      "animate": false,
+      "gender": "n",
+      "question": "Какое?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "зелёное"
+        },
+        {
+          "kind": "size",
+      "word": "высокое"
+        },
+        {
+          "kind": "property",
+          "word": "ветвистое"
+        }
+      ],
+    "actions": [
+      "растёт",
+      "качается",
+      "падает"
+    ],
+      "context": {
+        "preposition": "в",
+        "nounForm": "лесу"
+      },
+      "example": {
+        "text": "Большое дерево растёт в лесу.",
+        "tokens": [
+          {
+            "word": "Большое",
+            "type": "attribute"
+          },
+          {
+            "word": "дерево",
+            "type": "subject"
+          },
+          {
+            "word": "растёт",
+            "type": "action"
+          },
+          {
+            "word": "в",
+            "type": "preposition"
+          },
+          {
+            "word": "лесу",
+            "type": "subject"
+          }
+        ]
+      }
+    },
+  {
+    "id": "cloud",
+      "noun": "облако",
+      "animate": false,
+      "gender": "n",
+      "question": "Какое?",
+      "attributes": [
+        {
+          "kind": "color",
+          "word": "белое"
+        },
+        {
+      "kind": "property",
+      "word": "грозовое"
+        },
+        {
+          "kind": "property",
+          "word": "пушистое"
+        }
+      ],
+      "actions": [
+        "плывёт",
+        "исчезает"
+      ],
+      "context": {
+        "preposition": "по",
+        "nounForm": "небу"
+      },
+      "example": {
+        "text": "Белое облако плывёт по небу.",
+        "tokens": [
+          {
+            "word": "Белое",
+            "type": "attribute"
+          },
+          {
+            "word": "облако",
+            "type": "subject"
+          },
+          {
+            "word": "плывёт",
+            "type": "action"
+          },
+          {
+            "word": "по",
+            "type": "preposition"
+          },
+          {
+            "word": "небу",
+            "type": "subject"
+          }
+        ]
+      }
+    }
+  ]
+}
